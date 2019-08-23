@@ -1,0 +1,14 @@
+Please find the below notes to setupa a wordpress site upa dn running in Docker
+Once you have the terminal open
+Pl enter teh below code.
+Method1:
+$ docker pull wordpress
+$ docker pull mysql
+To check the images are loaded in docker, use the below code:
+$ docker images
+To start with the process, now initiate the mysql server
+$ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+ref# https://hub.docker.com/_/mysql
+
+
+
